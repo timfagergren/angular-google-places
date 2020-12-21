@@ -24,41 +24,6 @@ npm publish --access=public
 
 ## Package Usage
 
-See [projects/google-reviews/README.md](projects/google-reviews/README.md)
+- `@timfagergren/google-reviews`- see [projects/google-reviews/README.md](projects/google-reviews/README.md)
 
-# Prerequisites
-
-* The following line must exist in your root `index.html` file, with a valid `API_KEY`
-
-```
-<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=API_KEY"></script>
-```
-
-**NOTE**: Google now requires the API be attached to a billing account, and have the following permissions:
-- Google Maps JavaScript API
-- Google Maps Geocoding API
-- Google Maps Places API
-
-Example
-
-```
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>The Infinity Group</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <!-- Requires the following APIs: JavaScript API, Geocoding API, and Places API -->
-  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=API_KEY"></script>
-</head>
-<body class="mat-typography">
-  <app-root></app-root>
-</body>
-</html>
-```
+  ![google reviews sample](https://github-assets.progressx.us/google-reviews_sample_walmart.png)
