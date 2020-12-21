@@ -66,7 +66,7 @@ Example
     import { NgModule } from '@angular/core';
 
     import { AppComponent } from './app.component';
-    import { GoogleReviewsModule } from '../../projects/google-reviews/src/public-api'
+    import { GoogleReviewsModule } from '@timfagergren/google-reviews'
 
     @NgModule({
     declarations: [
