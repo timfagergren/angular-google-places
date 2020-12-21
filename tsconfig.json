@@ -12,6 +12,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/google-reviews/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/google-reviews/tsconfig.spec.json"
     }
 ]
 }

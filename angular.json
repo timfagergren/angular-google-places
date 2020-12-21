@@ -123,6 +123,46 @@
           }
         }
       }
+    },
+    "google-reviews": {
+      "projectType": "library",
+      "root": "projects/google-reviews",
+      "sourceRoot": "projects/google-reviews/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/google-reviews/tsconfig.lib.json",
+            "project": "projects/google-reviews/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/google-reviews/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/google-reviews/src/test.ts",
+            "tsConfig": "projects/google-reviews/tsconfig.spec.json",
+            "karmaConfig": "projects/google-reviews/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/google-reviews/tsconfig.lib.json",
+              "projects/google-reviews/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "angular-google-places"
 }
