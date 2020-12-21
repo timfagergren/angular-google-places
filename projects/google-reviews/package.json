@@ -1,0 +1,12 @@
+{
+  "name": "@timfagergren/google-reviews",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14",
+    "@googlemaps/google-maps-services-js": "^3.1.13"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
